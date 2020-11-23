@@ -19,7 +19,7 @@ def get_data(urls, sheets, types):
             data = pd.concat([data, s], ignore_index=True)
         i += 1
     data.columns = ['target', 'data']
-    data['target'] = data['target'].apply(str)
+    #data['target'] = data['target'].apply(str)
     load_time = time() - t0
     print("Load dataset time:  %0.3fs" % load_time)
 
