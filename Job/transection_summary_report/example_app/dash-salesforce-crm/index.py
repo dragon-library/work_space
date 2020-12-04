@@ -131,4 +131,4 @@ def show_menu(n_clicks, tabs_style):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False)
